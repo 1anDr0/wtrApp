@@ -1,0 +1,53 @@
+.menu-container {
+  padding: 0px;
+  margin: 0px auto;
+  
+  
+}
+
+.menu-container ul {
+  display: flex; 
+  justify-content: space-between; 
+  padding-left: 0px;
+  border-bottom: solid 1px;
+  margin-top: 0px;
+}
+
+
+
+.menu-container ul li {
+  display: inline-block;
+  position: relative;
+}
+
+ul li a {
+  display: block;
+  padding: 10px 60px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+ul li ul.dropdown {
+  width: 140%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  padding-left: 0px;
+}
+
+ul li a:hover {
+  background: rgba(0, 0, 0, 0.493);
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+.li .bi{
+  font-size: 10px;
+}

@@ -1,0 +1,55 @@
+.forecast-container{
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px 10px;
+  text-align: center;
+  margin-top: -60px;
+}
+
+.forecast-container h4{
+  font-size: 20px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 14px;
+}
+
+.forecast-cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 0px;
+    
+}
+.forecast-cards div{
+  border: solid 1px;
+  width: 220px;
+  height: 255px;
+  background-color: rgba(0, 0, 0, 0.664); 
+}
+
+.description{
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.day-name{
+  font-size: 22px;  
+}
+
+.day-date{
+  font-size: 12px;
+  margin-top: -10px
+}
+
+.icon{
+  font-size: 50px;
+}
+
+.temperature{
+  font-size: 16px; 
+  font-weight: lighter;
+}
+
+  
